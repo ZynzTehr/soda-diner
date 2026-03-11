@@ -1,0 +1,42 @@
+{
+  "name": "Cherry Coke",
+  "brand": "Coca Cola",
+  "fizziness": 5,
+  "taste_rating": 8,
+  "served": false
+}
+{
+  "name": "Nitro Pepsi",
+  "brand": "Pepsi Co.",
+  "fizziness": 5,
+  "taste_rating": 8,
+  "served": false
+}
+{
+  "name": "Dr. Pepper",
+  "brand": "Pepsi Co.",
+  "fizziness": 4,
+  "taste_rating": 5,
+  "served": false
+}
+{
+  "name": "Coca Cola Classic",
+  "brand": "Coca Cola",
+  "fizziness": 3,
+  "taste_rating": 5,
+  "served": false
+}
+{
+  "name": "Coke Zero",
+  "brand": "Coca Cola",
+  "fizziness": 3,
+  "taste_rating": 2,
+  "served": false
+}
+{
+  "name": "Fanta",
+  "brand": "Fanta",
+  "fizziness": 3,
+  "taste_rating": 4,
+  "served": false
+}

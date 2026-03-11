@@ -1,0 +1,29 @@
+{
+  "name": "sodaDiner",
+  "version": "1.0.0",
+  "description": "Soda Diner Project - Practice finishing an app somebody else worked on for delivery",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "nodemon --exec mocha --recursive -R min",
+    "seed": "mongosh sodaDiner --eval 'printjson(db.dropDatabase())' && mongoimport --db=sodaDiner --collection=diners --file=seed/diners.json && mongoimport --db=sodaDiner --collection=sodas --file=seed/sodas.json"
+  },
+  "keywords": [],
+  "author": "Jorge Bucio",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mocha": "^10.2.0",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.2"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
