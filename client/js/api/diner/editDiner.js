@@ -8,7 +8,7 @@
                    .split('=')[1];   
     
     // Api for editing diner according to its ID
-    const dinerApi = "http://localhost:3000/diner/"+dinerID;
+    const dinerApi = "/diner/" + dinerID;
     // Button for editing
     const $editBtn = $('#editDiner');
     // Assign a click event for edit button

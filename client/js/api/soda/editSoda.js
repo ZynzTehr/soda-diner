@@ -7,7 +7,7 @@
                   .find(cookie => cookie.startsWith('soda'))
                   .split('=')[1];
     
-    const sodaApi = "http://localhost:3000/soda/"+sodaID;
+    const sodaApi = "/soda/" + sodaID;
     
     const $editBtn = $('#editSoda');
     // Assign a click event for edit button

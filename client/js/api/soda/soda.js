@@ -3,7 +3,7 @@
     // Get Soda form
     const $form = $('#soda-form');
     // Declare api server for soda
-    const apiServerSoda = "http://localhost:3000/sodas";
+    const apiServerSoda = "/sodas";
     // Get the sodas for soda form
     function getSodas() {
         // Get sodas

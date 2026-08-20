@@ -8,11 +8,11 @@
                    .split('=')[1];   
     
     // Api for editing diner according to its ID
-    const dinerApi = "http://localhost:3000/diner/" + dinerID;
+    const dinerApi = "/diner/" + dinerID;
     // Api for getting sodas availabe to serve
-    const apiServerSoda = "http://localhost:3000/sodas/serving";
+    const apiServerSoda = "/sodas/serving";
     // Api for updating sodas for diner
-    const apiUpdateSodas = "http://localhost:3000/diner/" + dinerID + "/sodas";
+    const apiUpdateSodas = "/diner/" + dinerID + "/sodas";
     // Make diner ajax request
     $.ajax({
         type: "GET",

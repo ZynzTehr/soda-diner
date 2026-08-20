@@ -8,9 +8,9 @@
         .split('=')[1];
 
     // Url for soda's information
-    const sodaApi = "http://localhost:3000/soda/" + sodaID;
+    const sodaApi = "/soda/" + sodaID;
     // Declare api for serve soda
-    const apiServerUpdateSoda = "http://localhost:3000/soda/updateSoda/" + sodaID;
+    const apiServerUpdateSoda = "/soda/updateSoda/" + sodaID;
     // Update soda button
     const $serveSoda = $('#serveSoda');
     // Status for soda (if being served)

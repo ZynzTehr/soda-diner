@@ -6,11 +6,11 @@
     // Get sodas container for diners 
     const $sodasContainer = $("#sodas-container");
     // Declare api server for requesting all diners
-    const apiServerDiners = "http://localhost:3000/diners";
+    const apiServerDiners = "/diners";
     // Declare api server for creating new diner
-    const apiServerDiner = "http://localhost:3000/diner";
+    const apiServerDiner = "/diner";
     // Declare api server for requesting sodas
-    const apiServerSoda = "http://localhost:3000/sodas/serving";
+    const apiServerSoda = "/sodas/serving";
     // Get the sodas for soda form
     function getSodas() {
         // Get sodas

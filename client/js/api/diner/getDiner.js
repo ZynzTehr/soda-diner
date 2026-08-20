@@ -7,7 +7,7 @@
                   .find(cookie => cookie.startsWith('diner'))
                   .split('=')[1];
     // Url for diner's information
-    const dinerApi = "http://localhost:3000/diner/"+dinerID;
+    const dinerApi = "/diner/" + dinerID;
     // Delete Soda button
     const $deleteBtn = $('#deleteDiner');
     // Make diner ajax request

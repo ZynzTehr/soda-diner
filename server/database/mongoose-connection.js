@@ -6,19 +6,21 @@ const db = 'sodaDiner'; // Database name..
 mongoose.set('strictQuery', true);
 mongoose.Promise = global.Promise;
 
-mongoose.connect(`mongodb://localhost/${db}`,
-    {
-      useNewUrlParser: true,
-      useUnifiedTopology: true
-    }
-);
+const mongoURI = process.env.MONGODB_URI || `mongodb://localhost/${db}`;
+
+mongoose.connect(mongoURI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
+
 mongoose.connection.on('connected', () => {
-  log(`Connected to ${db} Database`);
+  log(`Connected to MongoDB Database`);
 });
-mongoose.connection.on('error', () => {
-  log(`Data Connection Error to ${db} Database`, error);
-  process.exit(1);
+
+mongoose.connection.on('error', (err) => {
+  log(`MongoDB Connection Error:`, err);
 });
+
 mongoose.connection.on('disconnected', () => {
-  log(`${db} Database Disconnected`);
+  log(`MongoDB Database Disconnected`);
 });
