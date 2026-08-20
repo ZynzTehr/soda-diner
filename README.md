@@ -1,5 +1,7 @@
 # <span style="color: lightblue;"> Soda Diner Project </span>
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://soda-diner.onrender.com)
+
 ## <span style="color: orange;"> Project background </span> 
 
 Having to work on a project's backend and not being able to make any changes to the client side was tricky to say the least. Being recently introduced to  `Mongoose`, `Mocha`, `Chai`, `Express`, `Nodemon`, `Body-Parser` made things both complicated, but streamlined. Routes being fresh in my head made that less of a chore than I thought, but I also had to really dig and search for info on how to achieve certain goals. I am glad to have such good help from TA's here with me in the classroom. This project was hard all the way through for me, but a very good experience none the less.
